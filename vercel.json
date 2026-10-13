@@ -2,14 +2,16 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": false,
   "redirects": [
-    { "source": "/", "destination": "/inicio", "permanent": true },
-    { "source": "/Inicio.html", "destination": "/inicio", "permanent": true },
-    { "source": "/inicio.html", "destination": "/inicio", "permanent": true },
-    { "source": "/Inicio", "destination": "/inicio", "permanent": true },
-    { "source": "/index.html", "destination": "/inicio", "permanent": true },
-    { "source": "/index", "destination": "/inicio", "permanent": true }
+    { "source": "/", "destination": "/comingsoon", "permanent": true },
+    { "source": "/inicio", "destination": "/comingsoon", "permanent": true },
+    { "source": "/Inicio.html", "destination": "/comingsoon", "permanent": true },
+    { "source": "/inicio.html", "destination": "/comingsoon", "permanent": true },
+    { "source": "/Inicio", "destination": "/comingsoon", "permanent": true },
+    { "source": "/index.html", "destination": "/comingsoon", "permanent": true },
+    { "source": "/index", "destination": "/comingsoon", "permanent": true },
+    { "source": "/comingsoon.html", "destination": "/comingsoon", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/inicio", "destination": "/Inicio.html" }
+    { "source": "/comingsoon", "destination": "/comingsoon.html" }
   ]
 }
