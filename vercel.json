@@ -3,12 +3,6 @@
   "trailingSlash": false,
   "redirects": [
     { "source": "/", "destination": "/comingsoon", "permanent": true },
-    { "source": "/inicio", "destination": "/comingsoon", "permanent": true },
-    { "source": "/Inicio.html", "destination": "/comingsoon", "permanent": true },
-    { "source": "/inicio.html", "destination": "/comingsoon", "permanent": true },
-    { "source": "/Inicio", "destination": "/comingsoon", "permanent": true },
-    { "source": "/index.html", "destination": "/comingsoon", "permanent": true },
-    { "source": "/index", "destination": "/comingsoon", "permanent": true },
     { "source": "/comingsoon.html", "destination": "/comingsoon", "permanent": true }
   ],
   "rewrites": [
